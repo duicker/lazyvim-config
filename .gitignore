@@ -1,0 +1,43 @@
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+
+
+# Fichiers temporaires Neovim
+.swap
+*.swp
+*.swo
+*.swm
+*.swn
+
+# Sessions Neovim
+Session.vim
+*.ses
+
+# Backup files
+*.bak
+*.tmp
+*~
+
+# Undodir
+*.un~
+
+# Python virtualenv si tu utilises neovim + plugins python
+.venv/
+venv/
+__pycache__/
+
+# Node modules (si tu utilises coc.nvim ou d’autres plugins JS)
+node_modules/
+
+# Plug/packer/lazy.nvim (selon ton gestionnaire de plugins)
+# Si tu ne veux PAS versionner les plugins installés, ignore leur dossier
+plugged/
+site/pack/
+lazy-lock.json
+
