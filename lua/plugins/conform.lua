@@ -21,11 +21,11 @@ return {
     },
 
     -- Auto format à la sauvegarde
-    -- format_on_save = {
-    -- lsp_fallback = true, -- utilise LSP si pas de formateur dédié
-    -- async = false,
-    -- timeout_ms = 1000,
-    -- },
+    format_on_save = {
+      lsp_fallback = true, -- utilise LSP si pas de formateur dédié
+      async = false,
+      timeout_ms = 1000,
+    },
 
     -- Définition custom de formateurs
     formatters = {
